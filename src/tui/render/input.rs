@@ -1,7 +1,18 @@
 //! This module defines a way to render `input` tags.
 
+// use cursive::view::Boxable;
+// use cursive::view::Resizable;
+// use cursive::views::Button;
+// use cursive::{traits::Boxable, View};
+
+// use cursive::{view::Resizable, View};
+// use cursive::views::Button;
+
+use cursive::view::Resizable;
 use cursive::views::Button;
-use cursive::{traits::Boxable, View};
+use cursive::View;
+
+
 use log::{error, info};
 
 use crate::{
